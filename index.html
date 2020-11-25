@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ELVG & AGCL</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+
+    .dropbtn {
+        background-color: #48d1cc;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: #7effa5;
+    }
+    
+    .#myInput.m {
+      border-box: box-sizing;
+      border-radius: 19px;
+      background-image:url('search.png');
+      background-position: 14px 12px;
+      background-repeat: no-repeat;
+      font-size: 10px;
+      padding: 14px 20px 12px 45px;
+      border: none;
+      content: counter("/none/");
+    }
+    
+    .dropdown {
+      text-align: center;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+      text-align: center;
+        display: none;
+        position: absolute;
+        background-color: #fce9e9;
+        min-width: 230px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px
+        rgba(0,0,0,0.2);
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown a:hover
+    {background-color: #ddd}
+    
+    .show {display:block;}.hide {display:none;}
+    
+    </style>
+
+</head>
+
+<body id="body" onclick="bodyClicked();">
+
+
+  <section id="intro">
+
+    <div class="intro-text"><br>
+      <h2>Bienvenue</h2>
+      <p>soyez les bienvenue dans la cellule de partage d'experience Agro pastorale</p>
+      <a href="#about" class="btn-get-started scrollto">Commencer</a><span class="badge"></span>
+      <small class="infoOne">pour vous inscrire contacter le +226 71 73 40 67<br>Vous serez ajouter et informer de nos reglement et tarif.</small>
+<br>
+      
+    </div>
+
+    <div class="product-screens">
+
+      <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
+      <!--  <img src="img/product-screen-1.png" alt="">-->
+      </div>
+
+      <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
+       <!--<img src="img/product-screen-2.png" alt="">--> 
+      </div>
+
+      <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
+<!--<img src="img/product-screen-3.png" alt="">-->
+      </div>
+
+    </div>
+
+  </section><!-- #intro -->
+
+  <main id="main">
+    <!--the search querry part-->
+    <div class="search" id="searchField">
+    <form target="search.php"><nav>
+      <input onclick="getText()" onkeyup="filterFunction()" placeholder="rechercher vous.." color="white" type="text" id="myInput" onchange="getText();"><!--<input id="btnSearch" type="submit" value="chercher">--></nav>
+      
+      </form></div>
+      <div id="myDropdown" style="text-align: center;"
+      class="dropdown-content">
+      
+      
+          <a href="#about">Les mesures Bio-Securitaires</a>
+          <a href="#sevrage">SEVRAGE DES PORCELETS ET CASTRATION</a>
+          <a href="#castration">La castration</a>
+          <a href="#howcastration">Comment se fait une castration</a>
+          <a href="#poultry" style="transform:matrix();">FORMATION SUR LES TECHNIQUES D'ÉLÉVAGE DES POULETS DE CHAIRS</a>
+       <!--   <a href="#support">Support</a>
+          <a href="#tools">Tools</a>-->
+        </div>
+    <!--==========================È ¾ éëèÉ
+      About Us Section
+    ============================-->
+    <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Les mesures Bio-Securitaires</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+         En matiere d'élevage ,la meilleure faÇons d'avoir un bénéfice intéressant est d'éviter aux maximum les maladies aviaires.<br>
+           Ainsi donc de nombreuses mesures doivent etre prises en compte afin de limiter la propagation des maladies aviaires dans le temps et dans l'espace : C'est la pratique bio-securitaire.<br>
+          </p>
+          <h3 class="section-title">|- Mesures barrieres sanitaires dans le temps</h3>
+          <p class="section-description">avoir une seule production, d'une seule origine , et des meme ages.<br>nettoyer et désinfecter le batiment et les équipements a la finn de chaque cycle de production => maintien des conditons d'élevage : propriete , ambiance, qualiter des aliments et de l'eau.</p>
+          <h3 class="section-title">||-Les mesures barriere sanitaire dans l'espace</h3>
+          <p class="section-description"><ul>
+            <li>
+            veuillez a avoir de l'eau potable  de preference sans clore </li>
+            <li>controler la qualite des aliments</li>
+            <li>nettoyer régulierément le materiel</li>
+          <li>le sol doit etre betonné et isole c'est a dire couvert de litiere</li>
+          <li>la litiere doit etre sec toujours et exemple de moisissures</li>
+          <li>la litiere doit etre chauffer avant la venue des poussins.</li>
+          <li>le magasin de stockage doit etre deratiser continuellement.</li>
+          <li>controler constamment la santer des animaux</li>
+          <li>eleminer systematiquement les cadavresbpar incineration</li>
+          <li>le terrain doit etre cloture et les batiments etanche aux rongeurs.</li>
+          <li>interdire d'acces aux poulailler les autres animaux domestiques.</li>
+          <li>les visiteurs ne doivent pas du tout etres en contact avec les animaux.</li>
+          <li>disposer d'un pediluve devant chaque batiment avicole avec du desinfectant</li>
+          <li>acces interdit a toutes personnes etrangeres</li>
+          <li>commencer la distribution des aliments au niveau des plus jeunes vers les plus ages </li>
+          <li>commencez les visites dans les bandes bien portante et les terminer au niveau des malades</li>
+          <li>nettoyage journalier des vetements des ouvriers chaque soir en fin de service</li>
+     </ul>Pour en apprendre davantage veuillez vous inscrire a notre campagne de formation sur le theme : Biosecuriter avicole.
+          </p>
+        </div>
+<br>
+
+<div class="intro-text"><br>
+<!--section second information-->
+<section id="sevrage">
+<h3 style="color:white; background: linear-gradient(rgb(255, 116, 3), rgb(236, 0, 0));border-radius: 19px;text-align: center;">	* SEVRAGE DES PORCELETS ET CASTRATION*</h3>
+
+<h3 style="color:rgb(0, 0, 0);">LE SEVRAGE</h3>
+<p>Le sevrage consiste tout simplement à empêcher les Porcelets de boire le colostrum de la truie. L'âge  de sevrage varié considérablement suivants les types d'élevage.
+<br>
+*Le sevrage est possible à 4 semaines à condition d'avoir un aliment d'appoint*
+<br>
+Mais en règle générale le sevrage est appliqué au Porcelets âgé de six 06 semaines ou huit 08 semaines.
+
+Le sevrage est une période de stress pour les truies et notamment pour les porcelets, et il est alors essentiel  de le pratiquer  chirurgicalement.
+En effet de nombreuses complications engendré par le sevrage sont généralement liés au condition de sevrage et a la maturité 
+des porcelets. Ainsi les porcelets sevrés doivent être placés dans un logement d'hygiène rigoureuse ( propre et désinfecté,) 
+
+Le sevrage précoce nécessitent une bonne conduite d'élevage et une
+nutrition appropriée des porcelets.
+
+Quel que soit l'âge du sevrage, les porcelets ayant un  poids relativement faible ont besoin de soins plus importants 
+
+Il faudrait aussi les  loger en petits groupes dans des cases spécifiques.
+
+ Nous recommandons vivement de suivre les porcelets récemment sevrés durant les deux premières semaines, afin de pouvoir détecter des signes d'une d'un mauvaise santé ou de stress.
+
+*Cependant il est recommandé de retirer la truie au Porcelets en la changeant d'enclos. Il faut eviter de déplacer les Porcelets pour les sevrés car cela peut les déstabiliser*</section>
+<section id="castration">
+*La castration*
+La castration peut être fais quand les Porcelets ont une semaine d'âge mais si vous constatez qu'ils sont trop faibles mieux vaut attendre quelques jours de plus.
+
+La castration doit être faite avec réflexion car certains consommateurs pensent que les verrat castré sont trop gras.
+Cependant force est de constater que la castration à ses avantages :
+<ul><li>
+👉elle empêche la viande de trop sentir</li>
+
+<li>👉elle permet aux verrats de canaliser ses énergies pour la croissance</li>
+<li>👉elle facilite la gestion des verrats</li>
+</section>
+<h3 style="color:white; background: linear-gradient(rgb(255, 116, 3), rgb(236, 0, 0));border-radius: 19px;text-align: center;"><section id="howcastration">
+*Comment se fait une castration*</h3>
+
+<h5>👉il faudrait veiller sur la proprété de l'enclos premièrement</h5>
+<li>👉 Deuxièmement sur la proprété du verassons</li>
+<li>👉 nettoyer ensuite le scortum</li>
+<li>👉le désinfecter</li>
+<li>👉Serrer l'une des bourses entre le pouce,l'index,et le major</li>
+<li>👉inciser large</li>
+<li>👉faire sortir le testicule</li>
+<li>👉couper le cordon relié au testicule</li>
+
+<h3>*Reprendre l'opération avec l'autre bourse*</h3>
+<p>Pour en apprendre davantage veuillez nous écrire.</p>
+
+	
+		</section>
+				</body>
+</html>
+<section id="poultry">
+<h3 style="color:white; background: linear-gradient(rgb(255, 116, 3), rgb(236, 0, 0));border-radius: 19px;text-align: center;">FORMATION SUR LES TECHNIQUES D'ÉLÉVAGE DES POULETS DE CHAIRS</h3>
+
+<h4>👩‍🎓INTRODUCTION👩‍🎓</h4>
+
+Suite à l'explosion démographique galopante et la saturation des espaces de vies , la satisfaction des besoins humaines en nutrition est devenu une équation très complexe .
+
+_Pour répondre à la demande alimentaire croissante, de nouvelles tendances de production ont été introduites dans tous les secteurs d'activités et notamment dans l'aviculture._
+ 
+Notre cellule dans l'optique de développer le secteur d'aviculture à initié une série de formations parmi lesquels figure la présente formation sur l'élevage industriel des poulet de chair.
+ 
+Durant cette session de formation nous parlerons _*des systèmes d'élevage ,des races de poulet de chair,les normes géo-techniques de l'élevage des poulets, et des  stades de production du poulet de chair*_
+
+Pour en savoir plus n'hésitez pas à nous écrire
+
+
+</section>
+<!--####################-->
+
+</div>
+      <!-- #advanced-features -->
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Comment faire pour m'inscrire</h3>
+            <p class="cta-text">Creer une discution avec nos contact sur les resaux sociaux et saurions que vous voulez faire partie du service.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Rejoindre un groupe</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="clients">
+      <div class="container">
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-md-2">
+            <img src="img/clients/client-1.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-2.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-3.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-4.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-5.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-6.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #more-features -->
+
+    <!--==========================
+      Pricing Section
+    ============================-->
+    <section id="pricing" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Pricing</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Quelque information sur nos formation.</p>
+        </div>
+<!--
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInLeft">
+              <h3>Free(Gratuit)</h3>
+              <h5>Non disponible</h5>
+              <h4><sup>$</sup>0<span> month</span></h4>
+              <ul>
+             <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
+                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
+              </ul>
+              <a href="#" class="get-started-btn">Ce lancer</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box featured wow fadeInUp">
+              <h3>Business</h3>
+              <h4><sup>$</sup>29<span> month</span></h4>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
+                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
+              </ul>
+              <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>49<span> month</span></h4>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
+                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
+              </ul>
+              <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>--><!-- #pricing -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container">
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>cellule de partage</h3>
+              <p>le meilleure site de partage d'experience en agriculture et en elevage.</p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="fa fa-twitter" onclick="OpenTwiter();"></i></a>
+                <a href="#" class="facebook" onclick="OpenFB();"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram" onclick="OpenInst();"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="google-plus" onclick="OpenGoogle();"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="linkedin" onclick="OpenLink();"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+               <!-- <i class="ion-ios-location-outline"></i>
+                <p><br>New York, NY 535022</p>
+              </div>
+-->
+              <div>
+                <i class="ion-ios-email-outline"></i>
+                <p>celluledepartage@gmail.com</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-telephone-outline">71734067</i>
+                <p></p>
+              </div>
+
+            </div>
+          </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>Zanke Traore</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Avilon
+            -->
+            Designed by <a href="#">cellule de partage</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            
+            <a href="#" onclick="privacy();">Privacy Policy</a>
+            <a href="#" onclick="term();">Terms d'utilisation</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script type="text/javascript" src="app.js">
+  var body = "document.body";
+  </script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
